@@ -1,10 +1,12 @@
 import React from "react";
-
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline text-black-900">Soam</h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+    </>
   );
 };
 
