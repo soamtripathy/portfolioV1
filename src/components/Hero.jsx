@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
     <>
-      <div className="my-7 sm:my-0 max-w-[1200px] h-[90vh] flex flex-col-reverse sm:flex-row justify-center align-center mx-auto">
+      <div className="my-7 sm:my-0 max-w-[1200px] h-[90vh] flex flex-col-reverse sm:flex-row justify-center align-center mx-auto" id="home">
         <div className=" flex-col my-auto mx-auto">
           <p className="md:text-5xl sm:text-4xl text-xl font-bold text-gray-200">
             Hey! I am Soam
@@ -16,9 +16,9 @@ const Hero = () => {
               sequence={[
                 "Frontend Dev",
                 1000,
-                "Web Desinger",
+                "Techblogger",
                 1000,
-                "SDE",
+                "Tech Enthusiast",
                 1000,
               ]}
               wrapper="span"
@@ -42,7 +42,7 @@ const Hero = () => {
               href="/"
               title="Download CV"
               role="button"
-              class="w-[200px] h-[60px] relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-primary-color font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+              className="w-[200px] h-[60px] relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-primary-color font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
             >
               Download CV
             </a>
@@ -50,7 +50,7 @@ const Hero = () => {
         </div>
         <div className="my-auto">
           <img
-            className="w-[300px] sm:w-[500px] mx-auto h-auto rounded-full object-scale-down h-465 w-489"
+            className="w-[300px] sm:w-[500px] mx-auto h-auto rounded-full overflow-hidden"
             src={profilePic}
             alt="profile pic"
           />
