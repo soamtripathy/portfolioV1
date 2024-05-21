@@ -33,7 +33,7 @@ const Work = () => {
             />
           </a>
           <a
-            href="https://password-generator-soamtripathy.vercel.app/"
+            href="https://portfolio-soamtripathy.vercel.app/"
             target="blank"
             className="group h-48 overflow-hidden rounded-lg  shadow-lg md:h-80"
           >

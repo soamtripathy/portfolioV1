@@ -97,6 +97,9 @@ const Navbar = () => {
             <a href="#about">About</a>
           </li>
           <li className="p-2">
+            <a href="#skills">Skills</a>
+          </li>
+          <li className="p-2">
             <a href="#work">Work</a>
           </li>
           <li className="p-2">
