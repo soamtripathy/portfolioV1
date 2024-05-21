@@ -1,8 +1,10 @@
 import React from "react";
-import proj1 from "../assets/proj1.png";
-import proj2 from "../assets/proj2.png";
-import proj3 from "../assets/proj3.png";
-import proj4 from "../assets/proj4.png";
+import proj1 from "../assets/spotifyClone.png";
+import proj2 from "../assets/chatGPTClone.png";
+import proj3 from "../assets/currencyConverter.png";
+import proj4 from "../assets/todo.png";
+import proj5 from "../assets/passwordgen.png";
+import proj6 from "../assets/portfolio.png";
 
 const Work = () => {
   return (
@@ -20,7 +22,8 @@ const Work = () => {
         </div>
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
           <a
-            href="/"
+            href="https://spotify-clone-soamtripathy.vercel.app/"
+            target="blank"
             className="group h-48 overflow-hidden rounded-lg  shadow-lg md:h-80"
           >
             <img
@@ -30,7 +33,19 @@ const Work = () => {
             />
           </a>
           <a
-            href="/"
+            href="https://password-generator-soamtripathy.vercel.app/"
+            target="blank"
+            className="group h-48 overflow-hidden rounded-lg  shadow-lg md:h-80"
+          >
+            <img
+              src={proj6}
+              alt=""
+              className="h-full w-full object-cover object-center transition-none duration-200 group-hover:scale-110"
+            />
+          </a>
+          <a
+            href="https://chatgpt-clone-soamtripathy.vercel.app/"
+            target="blank"
             className="group h-48 overflow-hidden rounded-lg  shadow-lg md:h-80"
           >
             <img
@@ -41,23 +56,34 @@ const Work = () => {
             />
           </a>
           <a
-            href="/"
+            href="https://currency-converter-soamtripathy.vercel.app/"
+            target="blank"
             className="group h-48 overflow-hidden rounded-lg  shadow-lg md:h-80"
           >
             <img
               src={proj3}
-              loading="lazy"
               alt=""
               className="h-full w-full object-cover object-center transition-none duration-200 group-hover:scale-110"
             />
           </a>
           <a
-            href="/"
+            href="https://to-do-list-soamtripathy.vercel.app/"
+            target="blank"
             className="group h-48 overflow-hidden rounded-lg  shadow-lg md:h-80"
           >
             <img
               src={proj4}
-              loading="lazy"
+              alt=""
+              className="h-full w-full object-cover object-center transition-none duration-200 group-hover:scale-110"
+            />
+          </a>
+          <a
+            href="https://password-generator-soamtripathy.vercel.app/"
+            target="blank"
+            className="group h-48 overflow-hidden rounded-lg  shadow-lg md:h-80"
+          >
+            <img
+              src={proj5}
               alt=""
               className="h-full w-full object-cover object-center transition-none duration-200 group-hover:scale-110"
             />

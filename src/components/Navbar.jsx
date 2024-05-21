@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
@@ -11,23 +12,68 @@ const Navbar = () => {
     <div className="z-10 text-gray-500 flex justify-between items-center max-w-[1240px] mx-auto h-24 px-4 text-l my-auto">
       <h1 className="text-3xl font-bold ml-4 primary-color">Soam Tripathy</h1>
       <ul className="hidden md:flex">
-        <li className="p-2">
+        <li className="p-2 cursor-pointer">
           <a href="#home">Home</a>
         </li>
-        <li className="p-2">
-          <a href="#about">About</a>
+        <li className="p-2 cursor-pointer">
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            About
+          </Link>
         </li>
-        <li className="p-2">
-          <a href="#skills">Skills</a>
+        <li className="p-2 cursor-pointer">
+          <Link
+            activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Skills
+          </Link>
         </li>
-        <li className="p-2">
-          <a href="#work">Work</a>
+        <li className="p-2 cursor-pointer">
+          <Link
+            activeClass="active"
+            to="work"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Work
+          </Link>
         </li>
-        <li className="p-2">
-          <a href="#blog">Blogs</a>
+        <li className="p-2 cursor-pointer">
+          <Link
+            activeClass="active"
+            to="blog"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Blogs
+          </Link>
         </li>
-        <li className="p-2">
-          <a href="#contact">Contact</a>
+        <li className="p-2 cursor-pointer">
+          <Link
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Contact
+          </Link>
         </li>
       </ul>
       <div onClick={handleNav} className="block md:flex">

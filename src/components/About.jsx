@@ -1,9 +1,9 @@
-import React from "react";
+
 import aboutImg from "../assets/about4.jpeg";
 
 const About = () => {
   return (
-    <div className="py-10 text-white bg-[#232325] h-auto" id="about">
+    <div className="py-10 text-white h-auto" id="about">
       <div className="flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 mx-w-6xl mx-auto">
         <div>
           <div className="w-[400px] h-full">

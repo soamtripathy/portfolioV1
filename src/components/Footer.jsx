@@ -1,5 +1,4 @@
-
-import { FaGithubSquare, FaInstagram } from "react-icons/fa";
+import { FaGithubSquare, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -9,10 +8,23 @@ const Footer = () => {
         &copy; 2024 Soam Tripathy
       </p>
       <div className="inline-flex text-gray-500 gap-4 text-3xl">
-        <FaGithubSquare />
-        <FaInstagram />
-        <FaGithubSquare />
-        <FaInstagram />
+        <a
+          href="https://www.linkedin.com/in/soumyaranjantripathy/y"
+          target="blank"
+        >
+          <FaLinkedin />
+        </a>
+
+        <a href="https://github.com/soamtripathy">
+          {" "}
+          <FaGithubSquare />
+        </a>
+        <a href="https://www.instagram.com/soamtripathy/">
+          <FaInstagram />
+        </a>
+        <a href="https://x.com/soamtripathy">
+          <FaTwitter />
+        </a>
       </div>
     </div>
   );

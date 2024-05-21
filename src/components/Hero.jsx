@@ -1,4 +1,3 @@
-import React from "react";
 import profilePic from "../assets/dp.png";
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
@@ -6,7 +5,10 @@ import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
     <>
-      <div className="my-7 sm:my-0 max-w-[1200px] h-[90vh] flex flex-col-reverse sm:flex-row justify-center align-center mx-auto" id="home">
+      <div
+        className="my-7 sm:my-0 max-w-[1200px] h-[90vh] flex flex-col-reverse sm:flex-row justify-center align-center mx-auto"
+        id="home"
+      >
         <div className=" flex-col my-auto mx-auto">
           <p className="md:text-5xl sm:text-4xl text-xl font-bold text-gray-200">
             Hey! I am Soam
@@ -32,9 +34,20 @@ const Hero = () => {
             </p>
           </div>
           <div className="text-5xl flex justify-start gap-16 my-7 text-purple-600">
-            <AiFillLinkedin />
-            <AiFillGithub />
-            <AiFillInstagram />
+            <a
+              href="https://www.linkedin.com/in/soumyaranjantripathy/y"
+              target="blank"
+            >
+              <AiFillLinkedin />
+            </a>
+
+            <a href="https://github.com/soamtripathy">
+              {" "}
+              <AiFillGithub />
+            </a>
+            <a href="https://www.instagram.com/soamtripathy/">
+              <AiFillInstagram />
+            </a>
           </div>
           <div className="relative inline-flex group my-3">
             <div className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFf] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>

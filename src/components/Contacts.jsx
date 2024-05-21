@@ -2,7 +2,10 @@ import React from "react";
 
 const Contacts = () => {
   return (
-    <div className="flex justify-center my-5 h-full sm:h-[70vh] items-center" id="contact">
+    <div
+      className="flex justify-center my-5 h-full sm:h-[70vh] items-center"
+      id="contact"
+    >
       <div className="max-w-[1200px] mx-auto">
         <div>
           <div className="grid grid-cols-1 md:grid-cols-2">
@@ -14,7 +17,7 @@ const Contacts = () => {
                 Let&apos;s connect on LinkedIn <br /> or send me an email.
               </p>
               <div className="flex items-center mt-2 text-gray-400">
-                
+                <a href="mailto:soumyaranjantripathy44@gmail.com" target="blank">
                   <svg
                     height="60px"
                     width="70px"
@@ -49,12 +52,14 @@ const Contacts = () => {
                       d="M4.17 49.14a1.5 1.5 0 0 1-1-2.62l18.4-16.41a1.5 1.5 0 0 1 2 2.24L5.17 48.76a1.46 1.46 0 0 1-1 .38zm55.66 0a1.46 1.46 0 0 1-1-.38l-18.4-16.41a1.5 1.5 0 1 1 2-2.24l18.39 16.41a1.5 1.5 0 0 1-1 2.62z"
                     ></path>
                   </svg>
-              
+                </a>
+
                 <div className="ml-4 text-md w-40">
                   <p>Soam Tripathy</p>
                 </div>
               </div>
             </div>
+            {/* used getform.io for the form submission */}
             <form
               action="https://getform.io/f/zaxdnzva"
               method="post"
