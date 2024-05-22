@@ -30,7 +30,7 @@ const Hero = () => {
           </h1>
           <div className="flex justify-center items-center">
             <p className="md:text-5xl sm:text-4xl text-xl font-bold text-gray-500">
-              with a 1+ years experience
+              with 1+ years experience
             </p>
           </div>
           <div className="text-5xl flex justify-start gap-16 my-7 text-purple-600">
